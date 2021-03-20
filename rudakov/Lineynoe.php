@@ -1,4 +1,5 @@
-﻿<?php namespace rudakov;
+<?php
+namespace rudakov;
 
 Class Lineynoe
 {

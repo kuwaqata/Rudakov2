@@ -1,5 +1,5 @@
-﻿<?php namespace rudakov;
-
+<?php
+namespace rudakov;
 use core\EquationInterface;
 
 Class Kvadratnoe extends Lineynoe implements EquationInterface{
@@ -8,7 +8,7 @@ Class Kvadratnoe extends Lineynoe implements EquationInterface{
 		return ($b**2)-4*$a*$c;
 		}
 	
-	public function solve($a, $b, $c){
+	public function solve($a, $b, $c) : array{
 
 		$x = $this->dis($a, $b, $c);
 
