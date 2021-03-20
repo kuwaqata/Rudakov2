@@ -1,0 +1,31 @@
+{
+    "name": "kuwaqata/rudakov2",
+    "description": "rudakov-library",
+    "type": "library",
+	"license": "-",
+	"authors": [
+		{
+			"name": "rudakov victor",
+			"email": "victor_rudakov@mail.ru"
+		}
+	],
+	
+	"minimum-stability": "dev",
+	
+    "require": {
+		 "rok9ru/trpo-core": "2.0"
+	},
+
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	],
+	
+	"autoload":{
+		"psr-4":{
+			"rudakov\\": "rudakov"
+		}
+	}
+}
